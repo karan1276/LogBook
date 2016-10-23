@@ -11,7 +11,7 @@ $ npm install angular2-log-book --save
 ```
 ## Usage
 
-1. Installation
+### Installation
 
 To install this library, run:
 
@@ -19,9 +19,9 @@ To install this library, run:
 $ npm install angular2-log-book --save
 ```
 
-2. Adding library
+### Adding library
 
-Add the library in your angular 2 project. If you are following the [Angular 2's Quickstart Guide](https://angular.io/docs/ts/latest/quickstart.html) it should be something like this:
+Add the library in your angular 2 project. If you are following the [Angular 2's Quickstart Guide]    (https://angular.io/docs/ts/latest/quickstart.html) it should be something like this:
 ```bash
         import { NgModule }      from '@angular/core';
         import { BrowserModule } from '@angular/platform-browser';
