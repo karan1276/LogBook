@@ -36,6 +36,26 @@ Add the library in your angular 2 project. If you are following the [Angular 2's
         })
         export class AppModule { }
 ```
+
+### Use it
+        @Component({
+            ...
+        })
+        export class AppComponent(){
+            constructor( private $log: LogBook ){
+                this.log.error('This is a priority level 1 error message...');
+                this.log.warn('This is a priority level 2 warning message...');
+                this.log.info('This is a priority level 3 warning message...');
+                this.log.verbose('This is a priority level 4 debug message...');
+                this.log.debug('This is a priority level 5 log message...');
+                this.log.silly('This is a priority level 6 log message...');
+            }
+        }
+## Features
+
+### Supports log levels:
+error, warn, info, verbose, debug and silly.
+
 ## Development
 
 To generate all `*.js`, `*.js.map` and `*.d.ts` files:
