@@ -79,7 +79,7 @@ this.log.disableTimestamp();
 ```
 
 ### Custom formatter
-comming soon
+comming soon. want something [like this](https://github.com/reubano/pygogo)
 
 ### Sending logs to serve
 comming soon
