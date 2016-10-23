@@ -26,13 +26,13 @@ Add the library in your angular 2 project. If you are following the [Angular 2's
         import { NgModule }      from '@angular/core';
         import { BrowserModule } from '@angular/platform-browser';
         import { AppComponent }  from './app.component';
-        import { Log } from "angular2-log-book/core"; // <-- ADD THIS
+        import { LogBook } from "angular2-log-book/core"; // <-- ADD THIS
     
         @NgModule({
             imports:      [ BrowserModule ],
             declarations: [ AppComponent ],
             bootstrap:    [ AppComponent ],
-            providers:    [ Log ] // <-- AND THIS
+            providers:    [ LogBook ] // <-- AND THIS
         })
         export class AppModule { }
 ```
