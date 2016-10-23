@@ -1,6 +1,7 @@
 ![alt tag](docs/logo.png)
 
 # angular2-log-book
+Note: work in progress, not ready for use!
 
 ## Installation
 
@@ -68,6 +69,14 @@ this.log.set_level('Info');
 this.log.set_level(3);
 ```
 
+### Timestamp
+```bash
+//Enable timestamp
+this.log.enableTimestamp();
+
+//Disable timestamp
+this.log.disableTimestamp();
+```
 ## Development
 
 To generate all `*.js`, `*.js.map` and `*.d.ts` files:
