@@ -78,13 +78,13 @@ this.log.enableTimestamp();
 this.log.disableTimestamp();
 ```
 
-### Custom logger
+### Custom formatter
 comming soon
 
 ### Sending logs to serve
 comming soon
 
-### callback emitter
+### Callback emitter
 comming soon
 
 ## Development
