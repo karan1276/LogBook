@@ -51,7 +51,7 @@ Add the library in your angular 2 project. If you are following the [Angular 2's
                 this.log.silly('This is a priority level 6 log message...');
             }
         }
-## Features
+## Functions
 
 ### Supports log levels:
 Supported log levels are `error`, `warn`, `info`, `verbose`, `debug` and `silly`. To log at a certain level write:
@@ -59,6 +59,15 @@ Supported log levels are `error`, `warn`, `info`, `verbose`, `debug` and `silly`
 this.log.level_name('Hello world!');
 ```
 replace `level_name` with `error`, `warn`, `info`, `verbose`, `debug` and `silly`.
+
+### Setting a log level
+Set your log level:
+```bash
+this.log.set_level('Info');
+// or
+this.log.set_level(3);
+```
+
 ## Development
 
 To generate all `*.js`, `*.js.map` and `*.d.ts` files:
