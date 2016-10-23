@@ -77,6 +77,16 @@ this.log.enableTimestamp();
 //Disable timestamp
 this.log.disableTimestamp();
 ```
+
+### Custom logger
+comming soon
+
+### Sending logs to serve
+comming soon
+
+### callback emitter
+comming soon
+
 ## Development
 
 To generate all `*.js`, `*.js.map` and `*.d.ts` files:
