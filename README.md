@@ -1,3 +1,5 @@
+![alt tag](docs/logo.png)
+
 # angular2-log-book
 
 ## Installation
