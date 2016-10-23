@@ -54,7 +54,9 @@ Add the library in your angular 2 project. If you are following the [Angular 2's
 ## Features
 
 ### Supports log levels:
-error, warn, info, verbose, debug and silly.
+`error`, `warn`, `info`, `verbose`, `debug` and `silly`.
+To log at a certain level write:
+        `this.log.*level_name*('Hello world!');`
 
 ## Development
 
