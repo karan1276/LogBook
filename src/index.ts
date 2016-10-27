@@ -1,13 +1,10 @@
-import {DIRECTIVES} from './directives';
-import {PIPES} from './pipes';
-import {PROVIDERS} from './services';
+// Import all services
+import {SampleService} from './services/sample.service';
 
-export * from './directives';
-export * from './services';
-export * from './pipes';
+// Export all services
+export * from './services/sample.service';
 
-export default {
-  directives: [DIRECTIVES],
-  pipes: [PIPES],
-  providers: [PROVIDERS]
-}
+// Export convenience property
+export const PROVIDERS: any[] = [
+  SampleService
+];
